@@ -1,17 +1,14 @@
 <?php get_header(); ?>
+<div class="container">
+	<div class="row">
+		<p>If you are interested in AlohaGo or other activities of <a href="aboutus/">пeepמind</a>, please feel free to contact us from this form.</p>
+		<h3 class="page-header">Send Message</h3>
+		<?php if(have_posts()):?>
+		<?php while (have_posts()): the_post();?>
 
-	<div class="intro-header jumbotron">
-
-		<img
-			src="<?php echo get_template_directory_uri(); ?>/images/AlohaGo_MainImage.png"
-			alt="Main Image" class="mainImage img-responsive" width=100%>
-
+		<?php the_content(); ?>
+		<?php endwhile; ?>
+		<?php endif; ?>
 	</div>
-	<div class="container" role="main">
-		<h2 class="titleType1">
-			AlohaGo
-		</h2>
-		AlohaGo
-	</div>
-
+</div>
 <?php get_footer(); ?>

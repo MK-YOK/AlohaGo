@@ -1,9 +1,9 @@
 /*
 Theme Name: AlohaGo
-Theme URI: テーマのホームサイトのURL
+Theme URI: ?e?[?}?ﾌホ?[???T?C?g??RL
 Description: Tropical Go site
 Author: Miki Kojima
-Author URI: 作者のURI
+Author URI: ????RI
 Version: 1.0
 */
 @CHARSET "utf-8";
@@ -19,6 +19,10 @@ body {
 	padding: 0;
 	margin: 0;
 	background-color: transparent;
+}
+
+.titleType1 h2 {
+  font-size:36px !important;
 }
 
 /*--------------------------------------------------------------

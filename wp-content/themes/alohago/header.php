@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-<meta charset="<?php bloginfo('charset'); ?>>
+<meta charset="<?php bloginfo('charset'); ?>">
 	<title>
 	<?php bloginfo('name'); ?> <?php wp_title('|'); ?>
 
